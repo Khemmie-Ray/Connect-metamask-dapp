@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Port+Lligat+Slab&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom right, #d3d3d3, #3c3c3d); 
+  min-height: 100vh; 
+  font-family: 'Port Lligat Slab', serif;
+  color: rgba(255, 255, 255, 0.596);
+}
+
+.ETH-logo {
+  width: 70%;
+}
+
+.ETH-logo, 
+body, .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ethImg {
+  width: 40%;
+  animation: spin 5s infinite linear;
+}
+
+.container {
+  flex-direction: column;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn {
+  padding: 1em;
+  background-image: linear-gradient(to bottom right, #c99d66, #3c3c3d);
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  width: 20%;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  background-image: linear-gradient(to bottom right, #3c3c3d, #FFFFFF); 
+  color: black;
+}
+
+.account-text {
+  margin: 2em 0 0;
+}
+
+/* ==== Media Query ==== */
+
+@media (max-width: 600px) {
+  .btn {
+    width: 50%;
+  }
+
+  .ethImg {
+    width: 100%;
+  }
+}
