@@ -10,11 +10,11 @@ This is a mini project that allow users interact with the Ethereum blockchain fr
 
 ## Screenshots
 
-![Screenshots]("./src/assets/Screenshot-two.png)
+![Screenshots](./src/assets/Screenshot-two.png)
 
-![Screenshots]("./src/assets/Screenshot-one.png)
+![Screenshots](./src/assets/Screenshot-one.png)
 
-![Screenshots]("./src/assets/Screenshot-three.png)
+![Screenshots](./src/assets/Screenshot-three.png)
 
 ## Resources
 
@@ -26,6 +26,6 @@ This is a mini project that allow users interact with the Ethereum blockchain fr
 
 ## Links
 
-[Livesite]()
+[Livesite](https://eth-button-connect-dapp.netlify.app/)
 
-[Github-URl]()
+[Github-URl](https://github.com/Khemmie-Ray/Connect-metamask-dapp.git)
